@@ -103,7 +103,6 @@ public class MagicSquare {
 		int sum = 0;
 		//Check diagonals
 		for(int k = 0; k<matrix.length;k++){
-				System.out.print(input.format(matrix[k][k]) + "+");
 				sum += matrix[k][k];
 			}
 			
@@ -119,4 +118,3 @@ public class MagicSquare {
 	}
 
 }	
-
